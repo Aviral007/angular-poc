@@ -1,0 +1,11 @@
+<div class="po col-md-8"*ngFor="let past_details of pastbooking">
+    <h5 class="text-success">{{past_details.date}}</h5>
+  <br>
+    <h3>{{past_details.name}}</h3>
+
+  <h4 *ngIf="past_details.status=='PENDING'" class="text-danger text-center col-md-offset-8 bor"><span class="glyphicon glyphicon-time"></span>  {{past_details.status}}</h4>
+  <h4 *ngIf="past_details.status=='On the way'" class="text-primary text-center col-md-offset-8 bor">  {{past_details.status}}</h4>
+    <h5 class="text-success">{{past_details.adress}}</h5>
+
+
+  </div>

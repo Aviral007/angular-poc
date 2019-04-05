@@ -1,0 +1,40 @@
+.login-button{ 
+  text-align: center; 
+  } 
+  .flex-container { 
+  display: flex; 
+  justify-content: center; 
+  
+  } 
+  
+  .flex-container > div { 
+  
+  width: 500px; 
+  margin: 10px; 
+  text-align: center; 
+  line-height: 15px; 
+  font-size: 15px; 
+  } 
+  
+  
+  .login-button{ 
+  text-align: center; 
+  margin-left: 80px; 
+  width: 400px; 
+  
+  
+  } 
+  #heading{ 
+  text-align: center; 
+  color: green; 
+  } 
+  .buttoncss{ 
+  width: 250px; 
+  margin-top: 20px; 
+  background-color: green; 
+  
+  }
+  #im{
+    height: 90px;
+    margin-left:45%;
+  }

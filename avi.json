@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "firstName": "Avi",
+      "lastName": "Saini",
+      "email": "aviral@gmail.com",
+      "phn_no": "1234567890",
+      "address": "510",
+      "medical": "NA",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "firstName": "cfeccfcfc",
+      "lastName": "ccdcdcdc",
+      "email": "cdc@a",
+      "phn_no": "23233454455",
+      "address": "ccdcdcdcdcdcdc",
+      "medical": "dc",
+      "password": "1232323",
+      "re_password": "11111111",
+      "id": 5
+    },
+    {
+      "firstName": "cfeccfcfc",
+      "lastName": "ccdcdcdc",
+      "email": "cdc@a",
+      "phn_no": "23233454455",
+      "address": "ccdcdcdcdcdcdc",
+      "medical": "dc",
+      "password": "1232323",
+      "re_password": "11111111",
+      "id": 6
+    },
+    {
+      "firstName": "Udit",
+      "lastName": "pilania",
+      "email": "udit@gmail.com",
+      "phn_no": "1345678903",
+      "address": "Muzzafarnagar",
+      "medical": "NA",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 7,
+      "fullName": "Avi Saini",
+      "updtEmail": "avi@gmail.com",
+      "updtPhn_no": "1234567890",
+      "updtAddrs": "589",
+      "updtMedical": "asdaf"
+    },
+    {
+      "firstName": "Asyush",
+      "lastName": "Bhargav",
+      "email": "aayush@gmail.com",
+      "phn_no": "7890456123",
+      "address": "Guna,MP",
+      "medical": "NO ",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 8
+    },
+    {
+      "firstName": "Hitesh",
+      "lastName": "Goel",
+      "email": "hiteshgoel@gmail.com",
+      "phn_no": 1478523690,
+      "address": "sre",
+      "medical": "baka",
+      "password": "123456",
+      "re_password": "123458",
+      "id": 9,
+      "fristName": "Hiteshu"
+    },
+    {
+      "firstName": "Hitesh",
+      "lastName": "Gupta",
+      "email": "hitesh@gmail.com",
+      "phn_no": "4567891230",
+      "address": "SRE",
+      "medical": "NA",
+      "password": "123456",
+      "re_password": "123458",
+      "id": 10
+    },
+    {
+      "firstName": "ravi",
+      "lastName": "kumr",
+      "email": "as@ghh.com",
+      "phn_no": "1234567890",
+      "address": "aravs",
+      "medical": "nn",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 11
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "asd@g",
+      "phn_no": "4567891230",
+      "address": "asd",
+      "medical": "asd",
+      "password": "456789",
+      "re_password": "456789",
+      "id": 12
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "asd@g",
+      "phn_no": "7894561230",
+      "address": "asd",
+      "medical": "asd",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 13
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "asd@g",
+      "phn_no": "7894561230",
+      "address": "asd",
+      "medical": "asd",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 14
+    },
+    {
+      "firstName": "annu",
+      "lastName": "kmr",
+      "email": "annu@gmail",
+      "phn_no": "4567891230",
+      "address": "asd",
+      "medical": "",
+      "password": "456789",
+      "re_password": "456789",
+      "id": 15
+    },
+    {
+      "firstName": "tannu",
+      "lastName": "mannu",
+      "email": "tannu@gmail.com",
+      "phn_no": "7894561230",
+      "address": "agra",
+      "medical": "NO",
+      "password": "123456",
+      "re_password": "123456",
+      "id": 16
+    },
+    {
+      "firstName": "Kalmal",
+      "lastName": "SharmaJeet",
+      "email": "kamalsharma@gmail.com",
+      "phn_no": "4567891230",
+      "address": "U.P",
+      "medical": "NO",
+      "password": "456123",
+      "re_password": "456123",
+      "id": 17
+    }
+  ],
+  "upcoming": [
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "On the way",
+      "id": 1
+    },
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "PENDING",
+      "id": 2
+    },
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "On the way",
+      "id": 3
+    }
+  ],
+  "past": [
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "On the way",
+      "id": 1
+    },
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "PENDING",
+      "id": 2
+    },
+    {
+      "Date": "27 NOVEMBER 2019 09:00",
+      "add": "5179 Josefina Square Apt.646",
+      "name": "Sam Atkins,Earl Moore",
+      "status": "On the way",
+      "id": 3
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Lorem Ipsum ?",
+      "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": 1
+    },
+    {
+      "question": "Why do we use it ?",
+      "answer": " a reader will It is a long established fact that be distracted by the readable content of a page when looking at its layout.",
+      "id": 2
+    },
+    {
+      "question": "Where we can use it ?",
+      "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": 3
+    }
+  ]
+}

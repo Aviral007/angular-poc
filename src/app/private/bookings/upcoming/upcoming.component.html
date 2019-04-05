@@ -1,0 +1,20 @@
+<!-- <p>
+  upcoming works!
+</p> -->
+<!-- <div *ngFor="let x of upcmng"> 
+    <div class="card-title"> 
+        {{x.Date}} {{x.add}}  {{x.name}} 
+        </div> 
+</div> -->
+
+<!-- <div *ngIf="toggle_upcoming"> -->
+    <div class="po col-md-8"*ngFor="let upcoming_details of upcmng">
+      <h5 class="text-success">{{upcoming_details.Date}}</h5>
+    <br>
+      <h3>{{upcoming_details.name}}</h3>
+    
+    <h4 *ngIf="upcoming_details.status=='PENDING'" class="text-danger text-center col-md-offset-8 bor"><span class="glyphicon glyphicon-time"></span>  {{upcoming_details.status}}</h4>
+    <h4 *ngIf="upcoming_details.status=='On the way'" class="text-primary text-center col-md-offset-8 bor">  {{upcoming_details.status}}</h4>
+      <h5 class="text-success">{{upcoming_details.add}}</h5>
+    </div>
+    

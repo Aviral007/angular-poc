@@ -1,0 +1,102 @@
+<!-- <div class="login-page">
+ <div class="form">
+    <form class="login-form" [formGroup]="profileUpdationForm" (ngSubmit)="login()" >
+        <h3 class="text-center text-success">PROFILE</h3><br>
+
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <input type="text" placeholder="Full Name" formControlName="fullName"/>
+                    <div *ngIf="profileUpdationForm.controls['fullName'].invalid && (profileUpdationForm.controls['fullName'].dirty || profileUpdationForm.controls['fullName'].touched)">
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['fullName'].errors.required" > E-mail Required</span>
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['fullName'].errors.email" >Invalid Email format</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-md-offset-1">
+                        <input type="email" placeholder="EMAIL" formControlName="updtEmail"/>
+                        <div *ngIf="profileUpdationForm.controls['updtEmail'].invalid && (profileUpdationForm.controls['updtEmail'].dirty || profileUpdationForm.controls['updtEmail'].touched)">
+                        <span class="text-danger" *ngIf="profileUpdationForm.controls['updtEmail'].errors.required" > E-mail Required</span>
+                        <span class="text-danger" *ngIf="profileUpdationForm.controls['updtEmail'].errors.email" >Invalid Email format</span>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                        <input type="text" placeholder="Phnnumber" formControlName="updtPhn_no"/>
+                        <div *ngIf="profileUpdationForm.controls['updtPhn_no'].invalid && (profileUpdationForm.controls['updtPhn_no'].dirty || profileUpdationForm.controls['updtPhn_no'].touched)">
+                        <span class="text-danger" *ngIf="profileUpdationForm.controls['updtPhn_no'].errors.required" >Password Required</span>
+                        </div>
+                    </div>
+
+                <div class="col-md-4 col-md-offset-1">
+                    <input type="text" placeholder="Address" formControlName="updtAddrs"/>
+                    <div *ngIf="profileUpdationForm.controls['updtAddrs'].invalid && (profileUpdationForm.controls['updtAddrs'].dirty || profileUpdationForm.controls['updtAddrs'].touched)">
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['updtAddrs'].errors.required" >Password Required</span>
+                    </div>
+                </div>
+        </div>
+
+            <button type="submit">Updte Profile</button>
+             <span *ngIf="flag" class="text-danger">Please Enter coreect Credentials</span>
+            <p class="message">Not registered? <a routerLink="" >Create an account</a></p> 
+
+
+
+    </form>
+ </div>
+</div> -->
+
+<h3 id ="heading"> Profile</h3> 
+
+
+<form [formGroup]="profileUpdationForm" (ngSubmit)="onUpdate()"> 
+    <img src="../../../assets/image.png"id="im">
+    <div class="flex-container"> 
+        <div class="form-group"> 
+            <label>Full Name</label> 
+            <input type="text" formControlName="fullName" class="form-control"/> 
+            <div *ngIf="profileUpdationForm.controls['fullName'].invalid && (profileUpdationForm.controls['fullName'].dirty || profileUpdationForm.controls['fullName'].touched)" class="text-danger"> 
+            <div *ngIf="profileUpdationForm.controls['fullName'].errors.required">Full Name is required</div> 
+            </div> 
+        </div> 
+        <div class="form-group"> 
+            <label>Email</label> 
+            <input type="email" formControlName="updtEmail" class="form-control"/> 
+            <div *ngIf="profileUpdationForm.controls['updtEmail'].invalid && (profileUpdationForm.controls['updtEmail'].dirty || profileUpdationForm.controls['updtEmail'].touched)">
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['updtEmail'].errors.required" > E-mail Required</span>
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['updtEmail'].errors.email" >Invalid Email format</span>
+             </div>
+        </div> 
+    </div> 
+
+    <div class="flex-container"> 
+        <div class="form-group"> 
+            <label>Phone-number</label> 
+            <input type="number" formControlName="updtPhn_no" class="form-control"/> 
+            <div *ngIf="profileUpdationForm.controls['updtPhn_no'].invalid && (profileUpdationForm.controls['updtPhn_no'].dirty || profileUpdationForm.controls['updtPhn_no'].touched)">
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['updtPhn_no'].errors.required" >Phone Number Required</span>
+                    </div>
+        </div> 
+        <div class="form-group"> 
+            <label>address</label> 
+            <input type="text" formControlName="updtAddrs" class="form-control"/> 
+            <div *ngIf="profileUpdationForm.controls['updtAddrs'].invalid && (profileUpdationForm.controls['updtAddrs'].dirty || profileUpdationForm.controls['updtAddrs'].touched)">
+                    <span class="text-danger" *ngIf="profileUpdationForm.controls['updtAddrs'].errors.required" >Address Required</span>
+            </div> 
+        </div> 
+    </div> 
+
+    <div class="flex-container"> 
+        <div class="form-group "> 
+            <label>Brief medical history of the patient</label> 
+            <input type="text" formControlName="updtMedical" class="form-control" /> 
+        </div> 
+        <div class="form-group button" > 
+            <button class="btn btn-primary buttoncss">update profile</button> 
+        </div> 
+    </div> 
+
+</form>
+

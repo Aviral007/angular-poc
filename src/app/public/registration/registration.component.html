@@ -1,0 +1,117 @@
+<!-- <div class="container col-md-8 col-md-offset-2"> <br>
+ <div class="panel panel-default">
+  <div class="panel-body"> -->
+<!-- <div class="box"> -->
+   <form class="form" [formGroup]="registerForm" (ngSubmit)="onSubmit()" >
+    
+        <h3 class="text-center text-success">REGISTER</h3><br>
+        <div class="flex-container"> 
+            <div class="form-group"> 
+                <label>FIRST NAME</label>
+                <input type="text" class="form-control" formControlName="firstName" />
+              
+              <div *ngIf="registerForm.controls['firstName'].invalid && (registerForm.controls['firstName'].dirty || registerForm.controls['firstName'].touched)">
+
+                  <span class="text-danger" *ngIf="registerForm.controls['firstName'].errors.required" >Required</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['firstName'].errors.pattern" >Invalid First Name format</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['firstName'].errors.minlength" >First Name should be between 3 and 13 characters</span>
+                </div>
+            </div>
+       
+           
+            <div class="form-group"> 
+               <label>LAST NAME</label>
+                <input type="text" class="form-control"class="form-control" formControlName="lastName" >
+              
+              <div *ngIf="registerForm.controls['lastName'].invalid && (registerForm.controls['lastName'].dirty || registerForm.controls['lastName'].touched)">
+  
+                  <span class="text-danger" *ngIf="registerForm.controls['lastName'].errors.required" >Required</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['lastName'].errors.pattern" >Invalid Last Name format</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['lastName'].errors.minlength" >Last Name should be between 3 and 13 characters</span>
+                </div> 
+        </div>
+      </div><br><br>
+      
+      <div class="flex-container"> 
+          <div class="form-group"> 
+            
+            <label>    E-MAIL ADDRESS</label>
+                <input type="email" class="form-control" formControlName="email" >
+              
+              <div *ngIf="registerForm.controls['email'].invalid && (registerForm.controls['email'].dirty || registerForm.controls['email'].touched)">
+
+                  <span class="text-danger" *ngIf="registerForm.controls['email'].errors.required" >Required</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['email'].errors.email" >Invalid Email format</span>
+              </div>
+          </div>
+
+          <div class="form-group"> 
+                  <label>  PHONE NUMBER</label>
+                    <input type="text" class="form-control" formControlName="phn_no" >
+                  
+                  <div *ngIf="registerForm.controls['phn_no'].invalid && (registerForm.controls['phn_no'].dirty || registerForm.controls['phn_no'].touched)">
+                      <span class="text-danger" *ngIf="registerForm.controls['phn_no'].errors.required" >Required</span>
+                      <span class="text-danger" *ngIf="registerForm.controls['phn_no'].errors.pattern" >Invalid Number format</span>
+                      <span class="text-danger" *ngIf="registerForm.controls['phn_no'].errors.minLength" >Number should be of 10 digits</span>
+                  </div>
+          </div>
+      </div><br><br>
+      
+      <div class="flex-container"> 
+          <div class="form-group"> 
+           <label>
+                    ADDRESS</label>
+                    <input type="text" class="form-control" formControlName="address" >
+                  
+                  <div *ngIf="registerForm.controls['address'].invalid && (registerForm.controls['address'].dirty || registerForm.controls['address'].touched)">
+                    <span class="text-danger" *ngIf="registerForm.controls['address'].errors.required" >Required</span>
+                    <span class="text-danger" *ngIf="registerForm.controls['address'].errors.minlength" >Adress should be minimum of 3 characters</span>
+                    <span class="text-danger" *ngIf="registerForm.controls['address'].errors.maxlength" >Adress should be  maximum of 30 characters</span>
+                  </div>
+          </div>
+
+          <div class="col-md-4 col-md-offset-1">
+            <label>
+                    MEDICAL HISTORY (OPTIONAL)</label>
+                    <input type="text" class="form-control" formControlName="medical" >
+                  
+          </div>
+      </div><br><br>
+      <div class="flex-container"> 
+          <div class="form-group"> 
+            <label>
+                PASSWORD</label>
+                <input type="password" class="form-control" formControlName="password" required > 
+              
+              <div *ngIf="registerForm.controls['password'].invalid && (registerForm.controls['password'].dirty || registerForm.controls['password'].touched)">
+                  <span class="text-danger" *ngIf="registerForm.controls['password'].errors.required" >Required</span>
+                  <span class="text-danger" *ngIf="registerForm.controls['password'].errors.minlength" >Password should be minimum of 6 characters</span>
+                </div>
+          </div>
+
+          <div class="col-md-4 col-md-offset-1">
+          <label>
+                  CONFIRM PASSWORD</label>
+                    <input type="password" class="form-control" formControlName="re_password" > 
+                  
+                  <div *ngIf="registerForm.controls['re_password'].invalid && (registerForm.controls['re_password'].dirty || registerForm.controls['re_password'].touched)">
+                      <span class="text-danger" *ngIf="registerForm.controls['re_password'].errors.required" >Required</span>
+                      <span class="text-danger" *ngIf="registerForm.controls['re_password'].errors.minlength" >Password should be minimum of 6 characters</span>
+                      <span class="text-danger" *ngIf="registerForm.controls['re_password'].errors.MustMatch" >Passwords dont match</span>
+                  </div>
+           </div>
+      </div><br><br>
+
+      <div class="form-group button text-center " > 
+    <button type="submit" class="btn btn-primary buttoncss" [disabled]="!registerForm.valid" >REGISTER</button>
+  
+    <div class="panel panel-default">
+        <div class="text-center panel-body">
+            
+          <h5 class="text-center  text-center "> Already a user click to <a class="text-success hover" routerLink="/login">login</a></h5>
+        </div>
+      </div>
+      </div>
+    
+  </form>
+<!-- </div> -->

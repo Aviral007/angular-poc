@@ -1,0 +1,51 @@
+.po{
+    border:1px solid gray;
+    margin-bottom: 3px;
+    margin-left: 7px;
+    background-color: 	#F0FFFF;
+  }
+  .panel-body{
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .co{
+    color:blue;
+  }
+  .coe{
+    color:red;
+  }
+  .bor{
+    border:1px solid black;
+  height:20%;
+  width:20%;
+  background-color:#FFEBCD;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+  }
+  .btn1{
+    border:1px solid black;
+  background-color:MediumSeaGreen;
+  margin-left: 2px;
+  margin-right: 2px;
+  height:40px;
+  width:20%;
+  }
+  .btn2{
+    border:1px solid black;
+  background-color:#FFEBCD;
+  
+  margin-right: 2px;
+  height:40px;
+  width:20%;
+  }
+  .nova{
+    border-bottom:1px solid gray;
+    margin-bottom:3px;
+  
+  
+  }

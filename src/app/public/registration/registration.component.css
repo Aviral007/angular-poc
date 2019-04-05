@@ -1,0 +1,80 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.panel-body {
+    width: 75%;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form-group {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 75%;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form-group input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  } */
+
+  .box { 
+    padding-top:40px; 
+    width: 75%; 
+    height: 75%; 
+    border: 50px solid green; 
+    margin: 50px; 
+    text-align:center; 
+    font-size:32px; 
+    font-weight:bold; 
+} 
+
+.form
+{
+  height:90% ;
+}
+  .login-button{ 
+    text-align: center; 
+    } 
+    .flex-container { 
+    display: flex; 
+    justify-content: center; 
+    
+    } 
+    
+    .flex-container > div { 
+    
+    width: 500px; 
+    margin: 10px; 
+    text-align: center; 
+    line-height: 15px; 
+    font-size: 15px; 
+    } 
+    
+    
+    .login-button{ 
+    text-align: center; 
+    margin-left: 80px; 
+    width: 400px; 
+    
+    
+    } 
+    #heading{ 
+    text-align: center; 
+    color: green; 
+    } 
+    .buttoncss{ 
+    width: 250px; 
+    margin-top: 20px; 
+    background-color: green; 
+    
+    }
