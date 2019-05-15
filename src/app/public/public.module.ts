@@ -13,10 +13,11 @@ import {CheckLoginDetailsService } from './services/check-login-details.service'
 
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
+import { DemoComponent } from './demo/demo.component';
 // import { NavbarComponent } from '../private/navbar/navbar.component';
 
 @NgModule({
-  declarations: [RegistrationComponent,LoginComponent],
+  declarations: [RegistrationComponent,LoginComponent, DemoComponent],
   imports: [
     CommonModule,
     FormsModule,
